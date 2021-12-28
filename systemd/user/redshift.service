@@ -1,0 +1,8 @@
+[Unit]
+Description=night light
+
+[Service]
+ExecStart=/usr/bin/redshift -l 47.60621:-122.3320
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,8 @@
+[Unit]
+Description=Screenshot daemon
+
+[Service]
+ExecStart=/usr/bin/flameshot
+
+[Install]
+WantedBy=default.target
