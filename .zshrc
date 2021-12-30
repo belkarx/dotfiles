@@ -4,7 +4,7 @@ SAVEHIST=10000000
 
 export EDITOR=nano
 export BROWSER=firefox-developer-edition
-export PY_PASS="bsdetup"
+
 unsetopt BEEP
 setopt autocd
 setopt no_case_glob
